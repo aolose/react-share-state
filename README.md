@@ -62,5 +62,5 @@ export default App
 ```
 
 ### clearShareState(key:any,watch?:boolean)
-- If no components use the state, the state will be cleared
+- clears the state if no components use it.
 - `watch`: default false. if true,the state will be auto clear when no components use it.

@@ -36,6 +36,7 @@ export const clearShareState = (key:unknown,watch=false)=>{
     const s = subscribers.get(key)?.size
     if(!s)store.delete(key)
     if(watch)autoClear.add(key)
+    else autoClear.delete(key)
 }
 
 export const useShareState = <T>(key: unknown, initialState?: T): [T | undefined, (s:T | ((s: T) => T))=>void] => {
