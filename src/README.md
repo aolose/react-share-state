@@ -1,4 +1,4 @@
-# react-share-state
+# react-hook-share-state
 
 Share state between different components.
 
@@ -9,7 +9,7 @@ Share state between different components.
 
 example :
 ```tsx
-import {useShareState} from "react-share-state";
+import {useShareState} from "react-hook-share-state";
 
 const key = 1
 
@@ -35,7 +35,7 @@ export default App
 
 example:
 ```tsx
-import {setShareState, useShareState} from "react-share-state";
+import {setShareState, useShareState} from "react-hook-share-state";
 
 setInterval(()=>setShareState<number>('a',(a=0)=>a+1),1e3)
 function App() {
@@ -51,7 +51,7 @@ export default App
 - get the state marked by the key
 
 ```tsx
-import {setShareState, getShareState} from "react-share-state";
+import {setShareState, getShareState} from "react-hook-share-state";
 
 setInterval(()=>setShareState<number>('a',(a=0)=>a+1),1e3)
 function App() { 

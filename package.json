@@ -1,8 +1,10 @@
 {
-  "name": "react-share-state",
-  "version": "0.0.1",
+  "name": "react-hook-share-state",
+  "version": "0.0.6",
   "type": "module",
   "license": "MIT",
+  "description": "Share state between different components.",
+  "keywords": ["react hooks","share state"],
   "homepage": "https://github.com/aolose/react-share-state",
   "scripts": {
     "build": "tsc && vite build"
