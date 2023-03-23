@@ -55,7 +55,7 @@ import {setShareState, getShareState} from "react-hook-share-state";
 
 setInterval(()=>setShareState<number>('a',(a=0)=>a+1),1e3)
 function App() { 
-    return <button onClick={()=>getShareState('a')}>get State</button>
+    return <button onClick={()=>alert(getShareState('a'))}>get State</button>
 }
 
 export default App
