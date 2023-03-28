@@ -1,6 +1,6 @@
 {
   "name": "react-hook-share-state",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "type": "module",
   "license": "MIT",
   "description": "Share state between different components.",

@@ -4,7 +4,6 @@ specifiers:
   '@types/node': ^18.15.5
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
-  react-hook-share-state: ^0.0.7
   typescript: ^4.9.3
   vite: ^4.2.0
   vite-plugin-dts: ^2.1.0
@@ -13,7 +12,6 @@ devDependencies:
   '@types/node': 18.15.5
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
-  react-hook-share-state: 0.0.7
   typescript: 4.9.5
   vite: 4.2.1_@types+node@18.15.5
   vite-plugin-dts: 2.1.0_h6rrpcx33yr4dcgxzju5ogtziu
@@ -731,13 +729,6 @@ packages:
 
   /queue-microtask/1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
-    dev: true
-
-  /react-hook-share-state/0.0.7:
-    resolution: {integrity: sha512-T+VubVsxjmGsEz++JumSijTIRkLCLe+Y+8pBbB7+YyIPsevrU+A6LFonHcZoDy/OECJ2fxAQQAX+ICCVbl0Grg==}
-    peerDependencies:
-      react: ^18.0.0
-      react-dom: ^18.0.0
     dev: true
 
   /resolve/1.19.0:
