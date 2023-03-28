@@ -32,7 +32,6 @@
     "@types/react-dom": "^18.0.11",
     "typescript": "^4.9.3",
     "vite": "^4.2.0",
-    "react-hook-share-state": "^0.0.7",
     "vite-plugin-dts": "^2.1.0"
   }
 }
